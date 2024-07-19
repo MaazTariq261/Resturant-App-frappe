@@ -1,1 +1,10 @@
 ResturantApp
+Hotel
+Facilities
+Room Service
+GYM
+Services
+Users Register
+Guest Privileges
+Shop
+Theme Park

@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-18 10:56:22.840235",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "resturant_name",
+  "logo",
+  "column_break_dlxl",
+  "resturant_type",
+  "image",
+  "section_break_wehq",
+  "description",
+  "reservation",
+  "column_break_osuy",
+  "working_hours",
+  "menu_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "resturant_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Resturant Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "fieldname": "column_break_dlxl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "resturant_type",
+   "fieldtype": "Select",
+   "label": "Resturant Type",
+   "options": "Option 1\nOption 2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "section_break_wehq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "reservation",
+   "fieldtype": "Button",
+   "label": "Reservation"
+  },
+  {
+   "fieldname": "column_break_osuy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "working_hours",
+   "fieldtype": "Data",
+   "label": "Working Hours"
+  },
+  {
+   "fieldname": "menu_url",
+   "fieldtype": "Data",
+   "label": "Menu Url"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-18 11:23:27.704659",
+ "modified_by": "Administrator",
+ "module": "Facilities",
+ "name": "Resturant",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

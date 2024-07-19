@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-19 11:16:38.470573",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "park_title",
+  "explore_park",
+  "column_break_iuzu",
+  "description",
+  "section_break_sohw",
+  "park_images",
+  "column_break_shac",
+  "pools",
+  "section_break_pyfo",
+  "slides",
+  "column_break_sele",
+  "experiances"
+ ],
+ "fields": [
+  {
+   "fieldname": "park_title",
+   "fieldtype": "Data",
+   "label": "Park Title"
+  },
+  {
+   "fieldname": "explore_park",
+   "fieldtype": "Button",
+   "label": "Explore Park"
+  },
+  {
+   "fieldname": "column_break_iuzu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_sohw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "park_images",
+   "fieldtype": "Table",
+   "label": "Park Images",
+   "options": "Image"
+  },
+  {
+   "fieldname": "column_break_shac",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pools",
+   "fieldtype": "Table",
+   "label": "Pools",
+   "options": "Pool"
+  },
+  {
+   "fieldname": "section_break_pyfo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "slides",
+   "fieldtype": "Table",
+   "label": "Slides",
+   "options": "Slide"
+  },
+  {
+   "fieldname": "column_break_sele",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "experiances",
+   "fieldtype": "Table",
+   "label": "Experiances",
+   "options": "Experiance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-19 11:20:07.498357",
+ "modified_by": "Administrator",
+ "module": "Theme Park",
+ "name": "Park",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

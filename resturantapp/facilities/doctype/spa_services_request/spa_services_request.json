@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-18 12:30:40.978298",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "guest",
+  "spa_services",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "guest",
+   "fieldtype": "Link",
+   "label": "Guest",
+   "options": "Guest"
+  },
+  {
+   "fieldname": "spa_services",
+   "fieldtype": "Table",
+   "label": "SPA Services",
+   "options": "SPA Service"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SPA Services Request",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-07-18 12:35:45.864449",
+ "modified_by": "Administrator",
+ "module": "Facilities",
+ "name": "SPA Services Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

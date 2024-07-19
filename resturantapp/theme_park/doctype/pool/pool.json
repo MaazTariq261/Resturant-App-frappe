@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-19 10:58:04.385099",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "pool_title",
+  "working_hours",
+  "duration",
+  "column_break_oipw",
+  "image",
+  "height",
+  "section_break_ihcc",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "pool_title",
+   "fieldtype": "Data",
+   "label": "Pool Title"
+  },
+  {
+   "fieldname": "working_hours",
+   "fieldtype": "Data",
+   "label": "Working Hours"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "label": "Duration "
+  },
+  {
+   "fieldname": "column_break_oipw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Table",
+   "label": "Image",
+   "options": "Image"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Data",
+   "label": "Height"
+  },
+  {
+   "fieldname": "section_break_ihcc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-19 11:11:19.353409",
+ "modified_by": "Administrator",
+ "module": "Theme Park",
+ "name": "Pool",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
